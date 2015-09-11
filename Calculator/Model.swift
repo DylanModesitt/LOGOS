@@ -243,7 +243,7 @@ class Model : Printable {
         
         learn(.UnaryOperation(sym:"acsc", f:{.Value(1 / asin($0))}))
         learn(.UnaryOperation(sym:"asec", f:{.Value(1 / acos($0))}))
-        learn(.UnaryOperation(sym:"atan", f:{.Value(1 / atan($0))}))
+        learn(.UnaryOperation(sym:"acot", f:{.Value(1 / atan($0))}))
         
         learn(.UnaryOperation(sym:"acsch", f:{.Value(1 / asinh($0))}))
         learn(.UnaryOperation(sym:"asech", f:{.Value(1 / acosh($0))}))
